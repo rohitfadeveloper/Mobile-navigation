@@ -1,0 +1,513 @@
+<html>
+ <head>
+     <title>Floweraura mobile navigation</title>
+     <link href="style.css" rel="stylesheet" type="text/css"/>
+     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+
+ <body>
+
+    <div class="flyout-menu">
+        <div class="flyout-menu-close" style="display: none">X</div> <!-- when active-->
+        <div id="navpanel">
+                <div>
+                <div class="menu-header" style="display: none"> <!-- when active-->
+                    <span id="fa-wecome-message">Hi Guest! (<a href="/user" target="_self">Sign In </a>)</span>
+                </div>
+
+                <div class="mt0">
+                    <div class="city-popup" style="display: none"> <!-- when active-->
+                        <input type="text" id="user-selected-city-input" class="txt" value="" placeholder="Choose Delivery City">
+                    </div>
+
+                    <div class="collapsible-menu" style="display: none">
+                        <h3 class="menu-arrow_back">Valentine</h3> <!-- when active-->
+                        <div class="minix-menu list hide" style="display: none"> <!-- when active-->
+                            <nav>
+                                <div>
+                                    <!--begin left sub menus-->
+                                    <div class="leftsubmenus">
+                                            <h4 class="inner-collapsible-menu licount_9 plus-sign">Catalog</h4>
+                                            <h4 class="inner-collapsible-menu licount_6 plus-sign">Gifts By Recipient</h4>
+                                            <h4 class="inner-collapsible-menu licount_8 plus-sign">Week Special</h4>
+                                            <h4 class="inner-collapsible-menu licount_9 plus-sign">Gifts by City</h4>
+                                    </div>
+                                    <!--end left sub menus-->
+
+                                    <!--begin left sub menus content-->
+                                    <div class="submenuscontent">
+
+                                            <div class="inner-collapsible-item catalog" style="display: block">
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine">All Valentine Gifts</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/flowers">Flowers</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/cakes">Cakes</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/serenade">Serenade</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/personalised-gifts">Personalised Gifts</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/combos">Combos</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/exclusive">Luxury Flowers</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/cakes/heart-shaped">Heart Shaped Cakes</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/offers">Offers</a></span>
+                                            </div>
+
+                                            <div class="inner-collapsible-item gifts-by-recipient">
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/gifts/for-her">Her</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/gifts/for-him">Him</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/gifts/for-wife">Wife</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/gifts/for-husband">Husband</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/gifts/for-girlfriend">Girlfriend</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/gifts/for-boyfriend">Boyfriend</a></span>
+                                            </div>
+
+                                            <div class="inner-collapsible-item week-special">
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/rose-day">Rose Day - 7th</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/propose-day">Propose Day - 8th</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/chocolate-day">Chocolate Day - 9th</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/teddy-day">Teddy Day - 10th</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/promise-day">Promise Day - 11th</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/hug-day">Hug Day - 12th</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/kiss-day">Kiss Day - 13th</a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine">Valentines Day - 14th</a></span>
+                                            </div>
+
+                                            <div class="inner-collapsible-item gifts-by-city">
+                                                    <span class="liclass"><a target="_self" href="https://www.floweraura.com/valentine/gifts/delhi">Delhi</a></span>
+                                                    <span class="liclass"><a target="_self" href="https://www.floweraura.com/valentine/gifts/bangalore">Bangalore</a></span>
+                                                    <span class="liclass"><a target="_self" href="https://www.floweraura.com/valentine/gifts/pune">Pune</a></span>
+                                                    <span class="liclass"><a target="_self" href="https://www.floweraura.com/valentine/gifts/hyderabad">Hyderabad</a></span>
+                                                    <span class="liclass"><a target="_self" href="https://www.floweraura.com/valentine/gifts/mumbai">Mumbai</a></span>
+                                                    <span class="liclass"><a target="_self" href="https://www.floweraura.com/valentine/gifts/chennai">Chennai</a></span>
+                                                    <span class="liclass"><a target="_self" href="https://www.floweraura.com/valentine/gifts/gurgaon">Gurgaon</a></span>
+                                                    <span class="liclass"><a target="_self" href="https://www.floweraura.com/valentine/gifts/kolkata">Kolkata</a></span>
+                                                    <span class="liclass"><a target="_self" href="https://www.floweraura.com/valentine/gifts">All Cities</a></span>
+                                            </div>
+
+                                    </div>
+                                    <!--begin left sub menus content-->
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-menu" style="display: none">
+                        <h3>Personalised</h3>
+                        <div class="minix-menu list hide">
+                            <nav>
+                                <div>
+                                    <h4 class="inner-collapsible-menu licount_6 plus-sign">Product Type</h4>
+                                    <div class="inner-collapsible-item product-type">
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/type/personalised">All Personalised Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/personalised-cushions-and-pillows">Cushions and Pillows</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/personalised-keychains">Keychains</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/personalised-mugs">Mugs</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/personalised-photo-frames">Photo Frames</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/personalised-photo-lamps">Photo Lamps</a></span>
+                                    </div>
+                                    
+                                    <h4 class="inner-collapsible-menu licount_2 plus-sign">Gifts For</h4>
+                                    <div class="inner-collapsible-item gifts-for">
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/personalised/for-her">Her</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/personalised/for-him">Him</a></span>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="collapsible-menu" style="display:block">
+                        <h3 class="menu-arrow_back">Flowers</h3>
+                        <div class="minix-menu list hide" style="display:block">
+                            <nav>
+                                <div>
+
+                                        <!--begin left sub menus-->
+                                        <div class="leftsubmenus">
+                                                <h4 class="inner-collapsible-menu"><a href="">Price</a></h4>
+                                                <h4 class="inner-collapsible-menu"><a href="" class="linkactive">Occasion</a></h4>
+                                                <h4 class="inner-collapsible-menu"><a href="">Type</a></h4>
+                                                <h4 class="inner-collapsible-menu"><a href="">Color</a></h4>
+                                                <h4 class="inner-collapsible-menu"><a href="">Combos</a></h4>
+                                                <h4 class="inner-collapsible-menu"><a href="">Special</a></h4>    
+                                                <h4 class="inner-collapsible-menu"><a href="">Festive</a></h4>
+                                            </div>
+                                        <!--end left sub menus-->
+
+                                        <!--begin left sub menus content-->
+                                        <div class="submenuscontent">
+
+                                                <div class="inner-collapsible-item by-price boxpadd" style="display:none">
+                                                        <span class="textbox"><a target="_self" href="http://fa.test/flowers/price-below-600">Under 600</a></span>
+                                                        <span class="textbox"><a target="_self" href="http://fa.test/flowers/price-600-to-1000">600 To 999</a></span>
+                                                        <span class="textbox"><a target="_self" href="http://fa.test/flowers/price-1000-to-2000">1000 To 1999</a></span>
+                                                        <span class="textbox"><a target="_self" href="http://fa.test/flowers/price-above-2000">Above 2000</a></span>
+                                                </div>
+
+                                                <div class="inner-collapsible-item by-occasion boxpadd" style="display: flex;flex-wrap: wrap;">
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/occasion/anniversary"><img src="bdayfest.png" title="birthday title"/><span>Anniversary</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/occasion/birthday"><img src="bdayfest.png" title="birthday title"/> <span>Birthday</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/occasion/appreciation"><img src="bdayfest.png" title="birthday title"/> <span>Appreciation</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/occasion/cheer-up"><img src="bdayfest.png" title="birthday title"/> <span>Cheer Up</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/occasion/congratulations"><img src="bdayfest.png" title="birthday title"/> <span>Congratulations</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/occasion/get-well-soon"><img src="bdayfest.png" title="birthday title"/> <span>Get well soon</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/occasion/sorry"><img src="bdayfest.png" title="birthday title"/> <span>I am sorry</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/occasion/love-and-romance"><img src="bdayfest.png" title="birthday title"/> <span>Love &amp; Affection</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/sendflowers"><img src="bdayfest.png" title="birthday title"/> <span>Other</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/new-baby/flowers"><img src="bdayfest.png" title="birthday title"/> <span>New Born</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/occasion/thank-you"><img src="bdayfest.png" title="birthday title"/> <span>Thank you</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/occasion/new-baby"><img src="bdayfest.png" title="birthday title"/> <span>New Born</span></a></span>
+                                                </div>
+
+                                                <div class="inner-collapsible-item by-type boxpadd">
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/roses"><img src="bdayfest.png" title="birthday title"/> <span>Roses</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/carnations"><img src="bdayfest.png" title="birthday title"/> <span>Carnations</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/gerberas"><img src="bdayfest.png" title="birthday title"/> <span>Gerberas</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/lilies"><img src="bdayfest.png" title="birthday title"/> <span>Lilies</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/orchids"><img src="bdayfest.png" title="birthday title"/> <span>Orchids</span></a></span>
+                                                        <span class="imgbox"><a target="_self" href="http://fa.test/flowers/mixed-type"><img src="bdayfest.png" title="birthday title"/> <span>Mixed Flowers</span></a></span>
+                                                </div>
+
+                                                <div class="inner-collapsible-item by-color boxpadd">
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers/colour/pink"><img src="bdayfest.png" title="birthday title"/> <span>Pink Flowers</span></a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers/colour/red"><img src="bdayfest.png" title="birthday title"/> <span>Red Flowers</span></a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers/colour/white"><img src="bdayfest.png" title="birthday title"/> <span>White Flowers</span></a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers/colour/yellow"><img src="bdayfest.png" title="birthday title"/> <span>Yellow Flowers</span></a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers/colour/purple"><img src="bdayfest.png" title="birthday title"/> <span>Purple Flowers</span></a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers/colour/mixed"><img src="bdayfest.png" title="birthday title"/> <span>Mixed Flowers</span></a></span>
+                                                 </div>
+
+                                                 <div class="inner-collapsible-item flower-combos boxpadd">
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/combos">All Combos</a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/combos/flowers-and-cakes"><img src="bdayfest.png" title="birthday title"/> <span>Flower n Cake</span></a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/combos/flowers-and-chocolates"><img src="bdayfest.png" title="birthday title"/> <span>Flower n Chocolate</span></a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/combos/flowers-and-soft-toys"><img src="bdayfest.png" title="birthday title"/> <span>Flower n Teddy</span></a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/combos/flowers-and-sweets"><img src="bdayfest.png" title="birthday title"/> <span>Flower n Sweet</span></a></span>
+                                                </div>
+
+                                                <div class="inner-collapsible-item special-flowers boxpadd">
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers"><img src="bdayfest.png" title="birthday title"/> <span>All Flowers</span></a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers/exotic"><img src="bdayfest.png" title="birthday title"/> <span>Exotic Flowers</span></a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers/basket"><img src="bdayfest.png" title="birthday title"/> <span>Flower Basket</span></a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers/bouquet"><img src="bdayfest.png" title="birthday title"/> <span>Flower Bouquet</span></a></span>
+                                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers/precious"><img src="bdayfest.png" title="birthday title"/> <span>Precious Flowers</span></a></span>
+                                                </div>
+
+                                                                                    
+                                            <div class="inner-collapsible-item festive-special boxpadd">
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/friendship-day/flowers"><img src="bdayfest.png" title="birthday title"/> <span>Friendship Day Flowers</span></a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/christmas/flowers"><img src="bdayfest.png" title="birthday title"/> <span>Christmas Flowers</span></a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/sendflowers"><img src="bdayfest.png" title="birthday title"/> <span>New Year Flowers</span></a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/new-year/flowers"><img src="bdayfest.png" title="birthday title"/> <span>New Year Flowers</span></a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine/flowers"><img src="bdayfest.png" title="birthday title"/> <span>Valentine Day Flowers</span></a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/womens-day/flowers"><img src="bdayfest.png" title="birthday title"/> <span>Women's Day Flowers</span></a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/holi/flowers"><img src="bdayfest.png" title="birthday title"/> <span>Holi Flowers</span></a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/mothers-day/flowers"><img src="bdayfest.png" title="birthday title"/> <span>Mother's Day Flowers</span></a></span>
+                                                    <span class="liclass"><a target="_self" href="http://fa.test/fathers-day/flowers"><img src="bdayfest.png" title="birthday title"/> <span>Father's Day Flowers</span></a></span>
+                                            </div>
+
+                                        </div>
+                                        <!--end left sub menus content-->
+                                            
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-menu" style="display: none">
+                        <h3>Cakes</h3>
+                        <div class="minix-menu list hide">
+                            <nav>
+                                <div>
+                                    <h4 class="inner-collapsible-menu licount_7 plus-sign">By Type</h4>
+                                    <div class="inner-collapsible-item by-type">
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes">All Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/regular">Delicious Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/themed">Designer Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/photo">Photo Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/eggless">Eggless Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/five-star">5 Star Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/heart-shaped">Heart Shaped Cakes</a></span>
+                                    </div>
+                                    
+                                    <h4 class="inner-collapsible-menu licount_8 plus-sign">Festive Special</h4>
+                                    
+                                    <div class="inner-collapsible-item festive-special">
+                                        <span class="liclass"><a target="_self" href="http://fa.test/friendship-day/cakes">Friendship Day Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/valentine-cakes">Valentine Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/christmas/cakes">Christmas Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/new-year/cakes">New Year Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/valentine/cakes">Valentine Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/womens-day/cakes">Women's Day Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/mothers-day/cakes">Mother's Day Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/fathers-day/cakes">Father's Day Cakes</a></span>
+                                    </div>
+                                    
+                                    <h4 class="inner-collapsible-menu licount_9 plus-sign">By Flavour</h4>
+                                    <div class="inner-collapsible-item by-flavour">
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/flavour/black-forest">Black Forest Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/flavour/butterscotch">Butterscotch Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/flavour/chocolate">Chocolate Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/flavour/fruit">Fruit Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/flavour/pineapple">Pineapple Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/flavour/red-velvet">Red Velvet Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/flavour/coffee">Coffee Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/flavour/strawberry">Strawberry Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/cakes/flavour/vanilla">Vanilla Cakes</a></span>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-menu" style="display: none">
+                        <h3>Gifts</h3>
+                        <div class="minix-menu list hide">
+                            <nav>
+                                <div>
+                                    <h4 class="inner-collapsible-menu licount_11 plus-sign">By Type</h4>
+                                    <div class="inner-collapsible-item by-type">
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts">All Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/type/personalised">Personalised Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/type/soft-toys">Soft Toys</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/type/mugs">Mugs</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/type/chocolates">Chocolates</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/type/god-idols">God Idols</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/type/cushions">Cushions</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/plants">Plants</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/type/jewellery">Jewellery</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/type/aprons">Aprons</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/miscellaneous">Other</a></span>
+                                    </div>
+                                    
+                                    <h4 class="inner-collapsible-menu licount_18 plus-sign">By Relation</h4>
+                                    
+                                    <div class="inner-collapsible-item by-relation">
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/relationship/girlfriend">Girlfriend</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/relationship/boyfriend">Boyfriend</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/relationship/husband">Husband</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/relationship/friend">Friend</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts-for-wife">Wife</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/relationship/wife">Wife</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/relationship/mother">Mother</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/relationship/father">Father</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/relationship/sister">Sister</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/relationship/brother">Brother</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/relationship/daughter">Daughter</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts/relationship/parents">Parents</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/valentine/gifts/for-him">Him</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/valentine/gifts/for-boyfriend">Boyfriend</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/valentine/gifts/for-husband">Husband</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/valentine/gifts/for-her">Her</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/valentine/gifts/for-girlfriend">Girlfriend</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/valentine/gifts/for-wife">Wife</a></span>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-menu" style="display: none">
+                        <h3>Anniversary</h3>
+                        <div class="minix-menu list hide">
+                            <nav>
+                                <div>
+                                    <h4 class="inner-collapsible-menu licount_5 plus-sign">Product Type</h4>
+                                    <div class="inner-collapsible-item product-type">
+                                        <span class="liclass"><a target="_self" href="http://fa.test/anniversary">All Anniversary Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers/occasion/anniversary">Anniversary Flowers</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/anniversary/cakes">Anniversary Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/anniversary/photo-cakes">Anniversary Photo Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/anniversary/personalised-gifts">Anniversary Personalised Gifts</a></span>
+                                    </div>
+                                    
+                                    <h4 class="inner-collapsible-menu licount_3 plus-sign">By Relation</h4>
+                                    
+                                    <div class="inner-collapsible-item by-relation">
+                                        <span class="liclass"><a target="_self" href="http://fa.test/anniversary/gifts/for-husband">Husband</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/anniversary/gifts/for-parents">Parents</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/anniversary/gifts/for-wife">Wife</a></span>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-menu" style="display: none">
+                        <h3>Plants</h3>
+                        <div class="minix-menu list hide">
+                            <nav>
+                                <div>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/plants">All Plants</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/plants/type/air-purifying">Air Purifying Plants</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/plants/type/lucky-bamboo">Lucky Bamboo</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/plants/type/bonsai">Bonsai Plants</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/plants/type/flowering">Flowering Plants</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/plants/type/indoor">Indoor Plants</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/plants/type/medicinal">Medicinal Plants</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/plants/type/succulent">Succulent Plants</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/plants/type/terrarium">Terrarium Plants</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/plants/type/money">Money Plants</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/plants/type/same-day-delivery">Same Day Plants</a></span>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-menu" style="display: none">
+                        <h3>Birthday</h3>
+                        
+                        <div class="minix-menu list hide">
+                            <nav>
+                                <div>
+                                    <h4 class="inner-collapsible-menu licount_5 plus-sign">Product Type</h4>
+                                    <div class="inner-collapsible-item product-type">
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday">All Birthday Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday/flowers">Birthday Flowers</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/flowers/occasion/birthday">Birthday Flowers</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday/photo-cakes">Birthday Photo Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday/cakes">Birthday Cakes</a></span>
+                                    </div>
+                                    
+                                    <h4 class="inner-collapsible-menu licount_9 plus-sign">By Relation</h4>
+                                    
+                                    <div class="inner-collapsible-item by-relation">
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday/gifts/for-boyfriend">Boyfriend</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday/gifts/for-brother">Brother</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday/gifts/for-father">Father</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday/gifts/for-friend">Friend</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday/gifts/for-girlfriend">Girlfriend</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday/gifts/for-husband">Husband</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday/gifts/for-mother">Mother</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday/gifts/for-sister">Sister</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/birthday/gifts/for-wife">Wife</a></span>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-menu" style="display: none">
+                        <h3>Occasion</h3>
+                        <div class="minix-menu list hide">
+                            <nav>
+                                <div>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/friendship-day">Friendship Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/send-rakhi">Rakhi</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/parents-day">Parents Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/daughters-day">Daughter's Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/teachers-day">Teacher's Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/grandparents-day">Grandparents Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/karwa-chauth">Karwa Chauth</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/diwali">Diwali</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/bhai-dooj">Bhai Dooj</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/childrens-day">Children's Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/christmas">Christmas</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/new-year">New Year</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/lohri">Lohri</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/rose-day">Rose Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/propose-day">Propose Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/chocolate-day">Chocolate Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/teddy-day">Teddy Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/womens-day">Women's Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/promise-day">Promise Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/hug-day">Hug Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/kiss-day">Kiss Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/valentine">Valentine's Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/womens-day">Women's Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/holi">Holi</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/april-fool">April Fool</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/mothers-day">Mother's Day</a></span>
+                                    <span class="liclass"><a target="_self" href="http://fa.test/fathers-day">Father's Day</a></span>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-menu" style="display: none">
+                        <h3>Cities</h3>
+                        
+                        <div class="minix-menu list hide">
+                            <nav>
+                                <div>
+                                    <h4 class="inner-collapsible-menu licount_9 plus-sign">Flower Cities</h4>
+                                    <div class="inner-collapsible-item flower-cities">
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/sendflowers/bangalore">Bangalore Flowers</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/sendflowers/chennai">Chennai Flowers</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/sendflowers/delhi">Delhi Flowers</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/sendflowers/gurgaon">Gurgaon Flowers</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/sendflowers/hyderabad">Hyderabad Flowers</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/sendflowers/kolkata">Kolkata Flowers</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/sendflowers/mumbai">Mumbai Flowers</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/sendflowers/pune">Pune Flowers</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/delivery-cities#flower">All Cities</a></span>
+                                    </div>
+                                    
+                                    <h4 class="inner-collapsible-menu licount_9 plus-sign">Cake Cities</h4>
+                                    
+                                    <div class="inner-collapsible-item cake-cities">
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/cake-delivery/bangalore">Bangalore Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/cake-delivery/chennai">Chennai Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/cake-delivery/delhi">Delhi Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/cake-delivery/gurgaon">Gurgaon Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/cake-delivery/hyderabad">Hyderabad Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/cake-delivery/kolkata">Kolkata Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/cake-delivery/mumbai">Mumbai Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/cake-delivery/pune">Pune Cakes</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/delivery-cities#cake">All Cities</a></span>
+                                    </div>
+                                    
+                                    <h4 class="inner-collapsible-menu licount_9 plus-sign">Gift Cities</h4>
+                                    
+                                    <div class="inner-collapsible-item gift-cities">
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/gifts/bangalore">Bangalore Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/gifts/chennai">Chennai Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/gifts/delhi">Delhi Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/gifts/gurgaon">Gurgaon Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/gifts/hyderabad">Hyderabad Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/gifts/kolkata">Kolkata Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/gifts/mumbai">Mumbai Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="https://www.floweraura.com/gifts/pune">Pune Gifts</a></span>
+                                        <span class="liclass"><a target="_self" href="http://fa.test/gifts">All Cities</a></span>
+                                    </div>
+                                    
+                                    <h4 class="inner-collapsible-menu licount_0 plus-sign">We Deliver Across 220+ Cities in India</h4>
+                                    
+                                    <div class="inner-collapsible-item we-deliver-across-220+-cities-in-india">
+
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    
+                    <div class="single-menu" style="display: none">
+                        <a href="/refer-and-earn" class="static-nav" target="_self">Refer &amp; Earn</a>
+                    </div>
+                    
+                    <div class="single-menu" style="display: none">
+                        <a target="_self" href="http://fa.test/trackorder" class="static-nav">Track Order</a>
+                    </div>
+                    
+                    <div class="single-menu" style="display: none">
+                        <a target="_self" href="http://fa.test/coupons" class="static-nav">Coupons</a>
+                    </div>
+                    
+                    <div class="single-menu" style="display: none">
+                        <a href="http://fa.test/user" target="_self" class="static-nav" id="fa-mobile-my-account">Sign In</a>
+                    </div>
+                    
+                    <div class="single-menu callus" style="display: none">
+                        <a title="" href="tel:9650062220" class="static-nav ui-link" target="_self">Call Us</a>
+                    </div>
+                    
+                    <div class="single-menu" style="display: none">
+                        <a target="_self" href="http://fa.test/ContactUs" class="static-nav">Contact Us</a>
+                    </div>
+                </div>
+
+                </div>
+                
+                </div>  
+            </div>
+
+ </body>
+
+</html>
