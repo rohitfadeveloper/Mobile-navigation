@@ -150,7 +150,7 @@
         font-size: 16px;
         font-weight: normal;
         text-align: left;
-        padding: 13px 0 13px 30px;
+        padding: 13px 0 13px 20px;
         background-image: url(arrow-Next.png);
         background-position: 94% center;
         background-repeat: no-repeat;
@@ -160,9 +160,9 @@
         margin: 0; }
       .flyout-menu #navpanel div .mt0 .collapsible-menu .menu-arrow_back {
         background-image: url("arrow-thin-left.png") !important;
-        background-position: 15px 20px !important;
+        background-position: 15px 25px !important;
         background-repeat: no-repeat;
-        line-height: 45px;
+        line-height: 55px;
         padding: 0;
         background-size: 18px auto;
         border-bottom: medium none;
